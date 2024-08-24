@@ -1,0 +1,102 @@
+.Section-one{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
+}
+.Section-one h2{
+font-size: 35px;
+color: #333333;
+}
+.Section-one p{
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 10rem;
+}
+.Section-two{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+     /* height: 1000px; */
+    box-sizing: border-box;
+   display: flex;
+    flex-direction: row ;
+   margin-bottom: 10rem;
+  
+    /* border: 0.5px solid #6ec1E47D; */
+ 
+   
+    justify-content: center;
+    align-items: center;
+   
+}
+.left-div1 {
+    height: 100%;
+    width: 25%;
+    background-color: #e5f8b8;
+    border: 0.5px solid #cbe295;
+    display: flex;
+    flex-direction: column;
+    /* position: relative; */
+    text-align: center;
+    background-color:  #e5f8b8;
+    border: 0.5px solid #cbe295;
+}
+
+.left-div1 a{
+color:#333333;
+text-decoration: none;
+text-align: center;
+padding: 10px;
+}
+.left-div1 a:hover{
+    color: #7bab0a;
+}
+.left-div2{height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    /* position: relative; */
+    text-align: center;
+    /* background-color:  #EBFCFF; */
+    border: 0.5px solid #cbe295;
+    background-color:none;  
+}
+.left-div2 a,.right-div1 a,.right-div2 a{
+    
+color:#333333;
+text-decoration: none;
+text-align: center;
+padding: 10px;
+
+}
+
+.left-div2 a:hover,.right-div1 a:hover,.right-div2 a:hover{
+    color: #7bab0a;
+}
+    
+.right-div1{height: 100%;
+    width: 25%;
+    background-color: #e5f8b8;
+    border: 0.5px solid #cbe295;
+    display: flex;
+    flex-direction: column;
+    /* position: relative; */
+    text-align: center;
+    background-color:  #e5f8b8;
+    border: 0.5px solid #cbe295;
+
+}
+.right-div2{height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    /* position: relative; */
+    text-align: center;
+    /* background-color:  #EBFCFF; */
+    border: 0.5px solid #cbe295;
+}

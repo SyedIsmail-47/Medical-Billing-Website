@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instant Billings</title>
+    <link rel="stylesheet" href="maincss.css">
+    <link rel="stylesheet" href="revenue.css"> 
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqk1w2xirsGWoO0rS5G1C9kgRO7y91iXcDtca6+y+sPX5HEteHz1Qno6z/BL+U9+Y73nSk+Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+        
+    <div class="top-bar">
+        <div class="contact-info">
+            <a href="mailto:info@Instantbillings.com">Email: info@Instantbillings.com</a> | 
+            <a href="tel:+92 (316)4578844">Call: +92 (316)4578844</a>
+        </div>
+        <div class="business-hours">
+            Business hours: 9:00 to 5:00 | Monday to Friday
+        </div>
+    </div>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html">
+                <img src="Favicon/faviconlogo.png" alt="Descriptive Alt Text" class="photo-link">
+            </a>
+        </div>
+        <div class="menu-icon" onclick="openNav()">&#9776;</div>
+        <ul class="nav-links">
+            <li><a href="who we are.html">WHO WE ARE</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">SERVICES</a>
+                <div class="dropdown-content">
+                    <a href="revenue-cycle-management.html">Revenue Cycle Management</a>
+                    <a href="medicalbilling.html">Medical Billing Service</a>
+                    <a href="medical-billing-audit-usa.html">Medical Billing Audit</a>
+                    <a href="Healthcare.html">Healthcare Digital Marketing</a>
+                </div>
+            </li>
+            <li><a href="specialities.html">SPECIALTIES</a></li>
+            <li><a href="Contactus.html">CONTACT US</a></li>
+        </ul>
+        <a href="inquire-now.html" class="inquire-button">INQUIRE NOW</a>
+    </nav>
+
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">WHO WE ARE</a>
+        <div class="dropdown">
+            <a href="#" class="dropbtn">SERVICES</a>
+            <div class="dropdown-content">
+                <a href="#">Revenue Cycle Management</a>
+                <a href="#">Practice Management</a>
+                <a href="#">Medical Billing Audit</a>
+                <a href="#">Healthcare Digital Marketing</a>
+            </div>
+        </div>
+        <a href="#">SPECIALTIES</a>
+        <a href="Contactus.html">CONTACT US</a>
+    </div>
+
+   
+
+    <br><br><br><br>
+
+    <!-- main -->
+
+    <section class="revenue-section5">
+        <div >
+            <h2><span>THANK YOU!</span></h2>
+            <p>Your query has been submitted successfully, and one of our representatives will contact you shortly.</p>
+            <a href="index.html" class="btn">Take Me Back</a></div>
+        </div>
+    </section>
+    <br><br><br><br><br><br>
+   <!-- main End -->
+  
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-section">
+                <h3>SERVICES</h3>
+                <ul>
+                    <li><a href="#">Medical Billing Services</a></li>
+                    <li><a href="#">Medical Billing Audit</a></li>
+                    <li><a href="#">Revenue Cycle Management</a></li>
+                    <li><a href="#">Healthcare Digital Marketing</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>ABOUT Instantbillings</h3>
+                <ul>
+                    <li><a href="#">Who We Are?</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Inquire Now</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Case Studies</a></li>
+                    <li><a href="#">Success Stories</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>GET STARTED</h3>
+                <ul>
+                    <li><a href="#">Annual Cost Calculator</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                    <li><a href="#">Our Specialties</a></li>
+                    <li><a href="#">Medical Billing Near You</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>OUR PARTNERS</h3>
+                <ul>
+                    <li><a href="#">Remote Patient Devices</a></li>
+                    <li><a href="#">Passionate Care Management</a></li>
+                    <li><a href="#">Dental Revenue Group</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>WEEKLY NEWSLETTER</h3>
+                <p>Subscribe to our newsletter and get the latest content right in your inbox.</p>
+                <form>
+                    <input type="email" placeholder="Your Email">
+                    <button type="submit">SUBSCRIBE</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>All Rights Reserved © 2024 Medical Billing Hand, Inc.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-pinterest"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidebar").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidebar").style.width = "0";
+        }
+    </script>
+
+</body>
+</html>

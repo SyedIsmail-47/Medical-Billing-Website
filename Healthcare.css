@@ -1,0 +1,280 @@
+.digital-marketing-services {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.digital-marketing-services h1 {
+    color: #7bab0a;
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.service-box1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.service-content1 {
+    flex: 1;
+    max-width: 600px;
+    text-align: left;
+}
+
+.service-content1 h2 {
+    color: #003366;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.service-content1 p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.service-image1 {
+    flex: 1;
+    max-width: 600px;
+    text-align: center;
+}
+
+.service-image1 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    .digital-marketing-services h1 {
+        font-size: 1.5em;
+    }
+
+    .service-box1 {
+        flex-direction: column;
+    }
+
+    .service-content1,
+    .service-image1 {
+        max-width: 100%;
+    }
+}
+
+
+.seo-services {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.seo-services h1 {
+    color: #003366;
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.service-box2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.service-content2 {
+    flex: 1;
+    max-width: 600px;
+    text-align: left;
+}
+
+.service-content2 p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.service-image2 {
+    flex: 1;
+    max-width: 600px;
+    text-align: center;
+}
+
+.service-image2 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    .seo-services h1 {
+        font-size: 1.5rem;
+    }
+
+    .service-box2 {
+        flex-direction: column;
+    }
+
+    .service-content2,
+    .service-image2 {
+        max-width: 100%;
+    }
+}
+
+
+
+.smm-services {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #003366;
+    color: white;
+}
+
+.smm-services h1 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.service-box3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.service-content3 {
+    flex: 1;
+    max-width: 600px;
+    text-align: left;
+}
+
+.service-content3 p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.service-image3 {
+    flex: 1;
+    max-width: 600px;
+    text-align: center;
+}
+
+.service-image3 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    .smm-services h1 {
+        font-size: 1.5rem;
+    }
+
+    .service-box3 {
+        flex-direction: column;
+    }
+
+    .service-content3,
+    .service-image3 {
+        max-width: 100%;
+    }
+}
+
+
+
+.container1 {
+    background: white;
+    padding: 20px;
+    border: 2px solid #7bab0a;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    margin-left: 130px;
+}
+
+.container1 h1 {
+    text-align: center;
+    color: #003366;
+}
+
+.stat1 {
+    margin-bottom: 20px;
+}
+
+.bar-container1 {
+    background: #e0e0e0;
+    border-radius: 25px;
+    overflow: hidden;
+    margin-top: 5px;
+    position: relative;
+}
+
+.bar1 {
+    height: 25px;
+    border-radius: 25px;
+    width: 0;
+    transition: width 2s;
+    position: relative;
+}
+
+.bar1 span {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bold;
+}
+
+.bar1:nth-child(1) {
+    background-color: #b2df4a;
+}
+
+.bar1:nth-child(2) {
+    background-color: #0066cc;
+}
+
+.bar1:nth-child(3) {
+    background-color: #0099cc;
+}
+
+.bar1:nth-child(4) {
+    background-color: #00b3cc;
+}
+
+@media (max-width: 768px) {
+    .container1 {
+        padding: 15px;
+        margin-left: 0;
+    }
+
+    .bar1 {
+        height: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container1 {
+        padding: 10px;
+    }
+
+    .bar1 {
+        height: 15px;
+    }
+
+    .bar1 span {
+        font-size: 12px;
+    }
+}

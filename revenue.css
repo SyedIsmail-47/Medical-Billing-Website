@@ -1,0 +1,450 @@
+body{
+    
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Montserrat',sans-serif; ;
+}
+
+.revenue-section-one {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    /* flex-direction: row; */
+    width: 80%;
+    height: 500px;
+    justify-content: center;
+    /* background-color: white; */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+   
+    overflow: hidden;
+}
+
+.right-div {
+    /* background-color: blue; */
+    position: relative;
+justify-content: center; 
+display: flex; 
+align-items: center;
+/* object-fit: cover; */
+}
+.left-div, .right-div{
+    width: 50%;
+    height: 100%;
+}
+
+.div-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-div img {padding: 2rem;
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+}
+.btn {
+    display: inline-block;
+    padding: 13px 30px;
+    color: rgb(4, 4, 59);
+    border: 1px solid #7bab0a;
+    text-decoration: none;
+    font-size: 26px;
+}
+
+ .btn:hover{
+    transition: 0.5s;
+    color: #7bab0a;
+}
+
+.left-div{
+    margin-top: 30px;
+    /* display: flex;
+    flex-direction: column; */
+    font-size: 35px;
+    color: #002750;
+    padding-right: 30px;
+}
+.left-div span{
+     color: #7bab0a;
+}
+
+
+@media (max-width: 768px) {
+    .revenue-section-one {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 850px;
+    }
+
+    .left-div, .right-div {
+        width: 100%;
+        height: auto;
+    }
+
+    .right-div img {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+
+    .left-div {
+        padding-right: 0;
+        margin: 0;
+        margin-top: 20px;
+        padding-top: 1rem;
+        font-size: 28px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left-div p {
+        margin-bottom: 1rem;
+    }
+
+    .div-btn {
+        margin-top: 1rem;
+    }
+}
+/* Section 2 */
+.revenue-section2{
+    height: 600px;
+    /* padding: 100px; */
+    margin-left: 10%;
+    margin-right: 10%;
+    /* border: 0.5px solid #00aaff; */
+    display: flex;
+    
+}
+.left-div2{
+    box-sizing: border-box;
+    border-top-left-radius: 500px;
+    border-bottom-left-radius: 500px;
+    display: flex;
+    position: relative;
+    flex-direction: row ;
+    border-right:transparent;
+    width: 50%;
+    height: 100%;
+    border: 0.5px solid #cbe295;
+    background: #e5f8b8;
+    border-right: transparent; 
+    justify-content: center;
+    align-items: center;    
+}
+
+.left-div2 h2{
+    margin-left: 10%;
+    /* margin-right: 10%; */
+    color: #002750;
+    font-size: 35px;
+    
+   
+}
+
+.right-div2 li{ 
+    font-size: 16px;
+    color: #333333;
+    margin-top: 10%;
+    gap: 1px;   
+}
+
+right-div2 li span{
+    font-size: 16px;
+    color: #333333;       
+}
+
+.right-div2{
+    display: flex;
+    /* text-align: center; */
+    border-top-right-radius: 500px;
+    border-bottom-right-radius: 500px;
+    width: 50%;
+    height: 100%;
+    border: 0.5px solid #cbe295;
+    border-left: transparent;
+}
+
+/* Responsiveness for Section 2 */
+@media (max-width: 768px) {
+    .revenue-section2 {
+        flex-direction: column;
+        height: auto;
+        margin: 0 5%;
+    }
+
+    .left-div2, .right-div2 {
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+    }
+
+    .left-div2 {
+        border-left: transparent;
+        border-right: transparent;
+    }
+
+    .right-div2 {
+        border: none;
+    }
+}
+
+/* section 3 */
+.revenue-section3{
+    width: 80%;
+    margin-top: 10rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/* section 4 styling  */
+.revenue-section4{
+
+    margin-top: 10rem;
+    height: 600px;
+    margin-left: 10%;
+    margin-right: 10%;
+    /* border: 0.5px solid #00aaff; */
+    color: #002750;
+    /* box-sizing: border-box; */
+    /* border-top-right-radius: 300px;
+    border-bottom-right-radius: 300px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    
+    position: relative;
+    /* flex-direction: column; */
+    /* text-align: center;  */
+    display: flex; 
+}
+
+.left-div4{padding: 100px;
+    box-sizing: border-box;
+    border-top-left-radius: 500px;
+    /* border-bottom-left-radius: 500px; */
+    display: flex;
+    /* position: relative; */
+    
+    border-right:transparent;
+    width: 30%;
+    height: 100%;
+    border: 0.5px solid #cbe295;
+    /* background: #6ec1E47D; */
+    border-right: transparent; 
+    justify-content: center;
+    align-items: center;
+}
+.left-div4 img{
+    margin-left: 15%;
+width: 150%;
+ object-fit: cover;
+}
+.right-div4{padding: 100px;
+    box-sizing: border-box;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+    
+    
+    height: 100%;
+    border: 0.5px solid #cbe295;
+    /* background: #6ec1E47D; */
+   
+    
+    align-items: center;
+}
+.right-div4 h2{
+    font-size: 35px;
+    /* font-weight:solid 0.5 ; */
+
+}
+.right-div4 p{font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7em;
+    font-size: 16px;
+    /* margin: 0px 0px 14.4px; */
+}
+
+.right-div4 a{
+    color: #7bab0a;;
+    text-decoration: none;
+}
+
+
+/* Media Query for Mobile */
+@media (max-width: 768px) {
+    .revenue-section4 {
+        flex-direction: column;
+        height: auto;
+        margin: 0 5%;
+    }
+
+    .left-div4, .right-div4 {
+        width: 100%;
+        height: auto;
+        padding: 20px; /* Adjust padding for mobile */
+        border-radius: 0;
+    }
+
+    .left-div4 img {
+      
+        margin-left: 0;
+        width: 100%; /* Make image fit container */
+        border: none;
+    }
+
+    .right-div4 {
+        border: none;
+        align-items: center; /* Center align items */
+    }
+}
+
+/* Styling For Contact Form  */
+.contact-section {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin: 2rem auto;
+    padding: 2rem;
+    /* background-color: #fff; */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; */
+}
+
+.contact-section h2 {
+    padding: 25px;
+    font-size: 35px;
+    text-align: center;
+    color: #002750;
+    margin-bottom: 1rem;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.form-group {
+    font-size: 16px;
+   /* margin: 15px; */
+    display: flex;
+    
+    gap: 1rem;
+    /* flex-direction: column; */
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    font-size: 1rem;
+    transition: border-bottom-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-bottom-color: #333;
+    outline: none;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: #999;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.submit-btn {
+    /* width: 20%; */
+    /* padding: 1rem; */
+    padding: 15px;
+    width: 250px;
+    background-color: #7bab0a;
+    color: #fff;
+    border: none;
+    border-radius: 1px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #7bab0a;
+}
+/* 
+.success-message {
+    text-align: center;
+    color: green;
+    margin-top: 1rem;
+} */
+
+@media (max-width: 768px) {
+    .form-group {
+        flex-direction: column;
+    }
+}
+.revenue-section5{
+    
+    /* padding: 100px; */
+    height: 400px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 0.5px solid #cbe295;
+    color: #002750;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    text-align: center;
+}
+.revenue-section5 h2{
+font-size: 35px;
+}
+.revenue-section5 p{
+    padding: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    font-size: 16px;
+}
+@media (max-width: 768px) {
+    .revenue-section5{
+        width: 100%;
+        border: none;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .revenue-section5 h2{
+        font-size: 26px;
+    }
+    
+.revenue-section5 p{
+   width: 100%;
+   margin: 0px;
+    font-size: 16px;
+}
+}
